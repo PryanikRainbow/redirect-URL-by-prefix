@@ -1,0 +1,3 @@
+location /prefix/ {
+    rewrite ^/prefix/(.*)$ /new_prefix/$1 permanent;
+}
